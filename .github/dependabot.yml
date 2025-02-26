@@ -17,7 +17,6 @@ updates:
 
   - package-ecosystem: "nuget" 
     directories: 
-      - "/AhaWebApi"
       - "/ArtifactoryWebApi"
       - "/ConfluenceWebApi"
       - "/GerritWebApi"
