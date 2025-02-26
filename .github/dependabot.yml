@@ -6,13 +6,13 @@
 version: 2
 updates:
   - package-ecosystem: "nuget" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directory: "ArtifactoryWebApi" # Location of package manifests
     schedule:
       interval: "weekly"
 
  # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
-    directory: "/"
+    directory: "ArtifactoryWebApi"
     schedule:
       interval: "weekly"
       
