@@ -5,13 +5,22 @@
 
 version: 2
 updates:
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      
 #  - package-ecosystem: "nuget" # See documentation for possible values
 #    directory: "AhaWebApi" # Location of package manifests
 #    schedule:
 #      interval: "weekly"
 
   - package-ecosystem: "nuget" 
-    directory: "/ArtifactoryWebApi"
+    directories: 
+      - "/AhaWebApi"
+      - "/ArtifactoryWebApi"
+      - "/ConfluenceWebApi"
+      - "/GerritWebApi"
     schedule:
       interval: "weekly"
 
