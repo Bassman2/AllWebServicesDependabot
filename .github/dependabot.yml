@@ -10,15 +10,13 @@ updates:
     schedule:
       interval: "weekly"
       
-#  - package-ecosystem: "nuget" # See documentation for possible values
-#    directory: "AhaWebApi" # Location of package manifests
-#    schedule:
-#      interval: "weekly"
+  - package-ecosystem: "nuget"
+    directory: "/AhaWebApi" 
+    schedule:
+      interval: "weekly"
 
   - package-ecosystem: "nuget" 
-    directories: 
-      - "/ArtifactoryWebApi"
-      - "/GerritWebApi"
+    directory: "/ArtifactoryWebApi"
     schedule:
       interval: "weekly"
 
