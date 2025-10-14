@@ -10,9 +10,6 @@
 [submodule "GithubWebApi"]
 	path = GithubWebApi
 	url = https://github.com/Bassman2/GithubWebApi
-[submodule "AhaWebApi"]
-	path = AhaWebApi
-	url = https://github.com/Bassman2/AhaWebApi
 [submodule "TheTVDBWebApi"]
 	path = TheTVDBWebApi
 	url = https://github.com/Bassman2/TheTVDBWebApi
