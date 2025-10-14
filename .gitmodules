@@ -34,3 +34,27 @@
 [submodule "FritzWebApi"]
 	path = FritzWebApi
 	url = https://github.com/Bassman2/FritzWebApi
+[submodule "BlackDuckWebApi"]
+	path = BlackDuckWebApi
+	url = https://github.com/Bassman2/BlackDuckWebApi
+[submodule "EosWebApi"]
+	path = EosWebApi
+	url = https://github.com/Bassman2/EosWebApi
+[submodule "FigmaWebApi"]
+	path = FigmaWebApi
+	url = https://github.com/Bassman2/FigmaWebApi
+[submodule "GrafanaWebApi"]
+	path = GrafanaWebApi
+	url = https://github.com/Bassman2/GrafanaWebApi
+[submodule "NextcloudWebApi"]
+	path = NextcloudWebApi
+	url = https://github.com/Bassman2/NextcloudWebApi
+[submodule "OpenGrokWebApi"]
+	path = OpenGrokWebApi
+	url = https://github.com/Bassman2/OpenGrokWebApi
+[submodule "PolarionWebApi"]
+	path = PolarionWebApi
+	url = https://github.com/Bassman2/PolarionWebApi
+[submodule "SonarQubeWebApi"]
+	path = SonarQubeWebApi
+	url = https://github.com/Bassman2/SonarQubeWebApi
