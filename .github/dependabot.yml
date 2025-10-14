@@ -15,11 +15,26 @@ updates:
     schedule:
       interval: "weekly"
 
+  - package-ecosystem: "nuget" 
+    directory: "/BlackDuckWebApi"
+    schedule:
+      interval: "weekly"
+
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "ConfluenceWebApi" # Location of package manifests
     schedule:
       interval: "weekly"
+      
+  - package-ecosystem: "nuget" 
+    directory: "/EosDuckWebApi"
+    schedule:
+      interval: "weekly"
 
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "FigmaWebApi" # Location of package manifests
+    schedule:
+      interval: "weekly"
+      
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "FritzWebApi" # Location of package manifests
     schedule:
@@ -32,6 +47,11 @@ updates:
 
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "GithubWebApi" # Location of package manifests
+    schedule:
+      interval: "weekly"
+      
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "GrafanaWebApi" # Location of package manifests
     schedule:
       interval: "weekly"
 
@@ -49,14 +69,34 @@ updates:
     directory: "JiraWebApi" # Location of package manifests
     schedule:
       interval: "weekly"
+      
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "NextcloudWebApi" # Location of package manifests
+    schedule:
+      interval: "weekly"
 
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "NistWebApi" # Location of package manifests
     schedule:
       interval: "weekly"
+      
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "OpenGrokWebApi" # Location of package manifests
+    schedule:
+      interval: "weekly"
+      
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "PolarionWebApi" # Location of package manifests
+    schedule:
+      interval: "weekly"
 
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "SnipeITWebApi" # Location of package manifests
+    schedule:
+      interval: "weekly"
+      
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "SonarQubeWebApi" # Location of package manifests
     schedule:
       interval: "weekly"
 
