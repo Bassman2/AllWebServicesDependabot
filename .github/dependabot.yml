@@ -9,12 +9,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-      
-  - package-ecosystem: "nuget"
-    directory: "/AhaWebApi" 
-    schedule:
-      interval: "weekly"
-
+   
   - package-ecosystem: "nuget" 
     directory: "/ArtifactoryWebApi"
     schedule:
@@ -25,44 +20,43 @@ updates:
     schedule:
       interval: "weekly"
 
-#  - package-ecosystem: "nuget" # See documentation for possible values
-#    directory: "GerritWebApi" # Location of package manifests
-#    schedule:
-#      interval: "weekly"
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "GerritWebApi" # Location of package manifests
+    schedule:
+      interval: "weekly"
 
-#  - package-ecosystem: "nuget" # See documentation for possible values
-#    directory: "GithubWebApi" # Location of package manifests
-#    schedule:
-#      interval: "weekly"
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "GithubWebApi" # Location of package manifests
+    schedule:
+      interval: "weekly"
 
-#  - package-ecosystem: "nuget" # See documentation for possible values
-#    directory: "GraphWebApi" # Location of package manifests
-#    schedule:
-#      interval: "weekly"
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "GraphWebApi" # Location of package manifests
+    schedule:
+      interval: "weekly"
 
-#  - package-ecosystem: "nuget" # See documentation for possible values
-#    directory: "JenkinsWebApi" # Location of package manifests
-#    schedule:
-#      interval: "weekly"
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "JenkinsWebApi" # Location of package manifests
+    schedule:
+      interval: "weekly"
 
-#  - package-ecosystem: "nuget" # See documentation for possible values
-#    directory: "JiraWebApi" # Location of package manifests
-#    schedule:
-#      interval: "weekly"
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "JiraWebApi" # Location of package manifests
+    schedule:#      interval: "weekly"
 
-#  - package-ecosystem: "nuget" # See documentation for possible values
-#    directory: "NistWebApi" # Location of package manifests
-#    schedule:
-#      interval: "weekly"
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "NistWebApi" # Location of package manifests
+    schedule:
+      interval: "weekly"
 
-#  - package-ecosystem: "nuget" # See documentation for possible values
-#    directory: "SnipeITWebApi" # Location of package manifests
-#    schedule:
-#      interval: "weekly"
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "SnipeITWebApi" # Location of package manifests
+    schedule:
+      interval: "weekly"
 
-#  - package-ecosystem: "nuget" # See documentation for possible values
-#    directory: "TheTVDBWebApi" # Location of package manifests
-#    schedule:
-#      interval: "weekly"
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "TheTVDBWebApi" # Location of package manifests
+    schedule:
+      interval: "weekly"
 
   
