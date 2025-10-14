@@ -55,3 +55,7 @@
 [submodule "SonarQubeWebApi"]
 	path = SonarQubeWebApi
 	url = https://github.com/Bassman2/SonarQubeWebApi
+
+[submodule "NistWebApi"]
+	path = NistWebApi
+	url = https://github.com/Bassman2/NistWebApi
