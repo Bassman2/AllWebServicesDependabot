@@ -20,10 +20,10 @@ updates:
     schedule:
       interval: "weekly"
 
-#  - package-ecosystem: "nuget" # See documentation for possible values
-#    directory: "ConfluenceWebApi" # Location of package manifests
-#    schedule:
-#      interval: "weekly"
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "ConfluenceWebApi" # Location of package manifests
+    schedule:
+      interval: "weekly"
 
 #  - package-ecosystem: "nuget" # See documentation for possible values
 #    directory: "GerritWebApi" # Location of package manifests
